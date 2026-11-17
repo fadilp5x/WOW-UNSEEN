@@ -1,56 +1,73 @@
-# 🔍 UNSEEN — Make the Invisible Visible
+<div align="center">
 
-> **A premium, animated, mascot-driven resource intelligence platform that helps people, communities, and organizations discover, measure, and eliminate invisible resource leaks.**
+# 🔍 UNSEEN
+### *Make the Invisible Visible.*
 
-[![Vercel Deployment](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/new)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Automated-green?style=for-the-badge&logo=github)](https://github.com/fadilp5x/WOW-UNSEEN)
-[![React 18](https://img.shields.io/badge/React-18.3-blue?style=for-the-badge&logo=react)](https://react.dev/)
-[![Vite 6](https://img.shields.io/badge/Vite-6.0-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
-[![Tailwind CSS 3](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+**A premium, animated, mascot-driven Resource Intelligence Platform helping individuals, teams, and organizations detect, quantify, and eliminate invisible waste.**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffadilp5x%2FWOW-UNSEEN)
+[![GitHub Pages CI](https://github.com/fadilp5x/WOW-UNSEEN/actions/workflows/deploy.yml/badge.svg)](https://github.com/fadilp5x/WOW-UNSEEN/actions)
+[![React 18](https://img.shields.io/badge/React-18.3-blue.svg?logo=react&style=flat-square)](https://react.dev/)
+[![Vite 6](https://img.shields.io/badge/Vite-6.0-646CFF.svg?logo=vite&style=flat-square)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg?logo=tailwind-css&style=flat-square)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+
+[Live Demo](https://fadilp5x.github.io/WOW-UNSEEN/) • [Explore Features](#-core-features) • [Deployment](#-deployment-guide) • [Architecture](#-project-architecture)
+
+</div>
 
 ---
 
-## 🌟 Product Identity & Philosophy
+## 🌟 What is UNSEEN?
 
-Most critical resource losses never show up on standard invoices:
-- **Time** lost in recurring, unstructured status meetings.
-- **Food** prepped and tossed before weekend cafeteria lulls.
-- **Electricity** drawn continuously 24/7 by idle monitors and standby hardware.
-- **Water** trickling invisibly from uncalibrated valve seals.
-- **Waiting Time** spent in manual review queues and administrative bottlenecks.
+Most critical resource losses never appear on an invoice or a monthly bill:
+* ⏳ **Time** silently drained in repetitive, unstructured status updates.
+* 🍱 **Food** prepped and discarded during mid-week cafeteria and pantry lulls.
+* ⚡ **Electricity** siphoned continuously 24/7 by idle monitors, phantom standby bricks, and unused cooling.
+* 💧 **Water** trickling invisibly from uncalibrated valve seals and fixture leaks.
+* 🛑 **Waiting Friction** idling cross-functional teams in manual handoff and review bottlenecks.
 
-**UNSEEN** transforms these elusive drains into quantified, actionable intelligence through a playful, companion-led experience driven by **SCOUT**.
+**UNSEEN** transforms these elusive, intangible drains into **quantified, actionable intelligence** through a playful, companion-led tactile interface powered by **SCOUT**.
 
 ---
 
 ## 🕵️‍♂️ Meet SCOUT — The 3D Resource Detective
 
-**SCOUT** is an original, animated companion engineered with a tactile, 3D clay/vinyl aesthetic:
-- **Silhouette**: Smooth spherical lime-green body with a top hair sprout.
-- **Signature Specs**: Thick, dark teal circular detective glasses with realistic specular glints and an arched nose bridge.
-- **Expressive Eyes**: Glossy vertical pupils with dynamic specular reflections and natural blinking physics.
-- **Telemetry Display**: Floats within concentric deep emerald sonar waves surrounded by floating live sparklines, radar pulse beacons, and verified leak counters.
+**SCOUT** is our original animated companion designed with a tactile **3D clay/vinyl aesthetic**:
+- **Sphere Body**: Soft tactile lime body with subtle subsurface rim highlights and a playful sprout tuft.
+- **Iconic Glasses**: Thick, dark teal circular detective frames with realistic specular gleams and bridge arc.
+- **Expressive Eyes**: Glossy vertical pupils featuring organic double-blinks and dynamic directional tracking.
+- **Telemetry Radar Ring**: Surrounds Scout in concentric deep-emerald radar waves, complemented by floating glassmorphic telemetry cards (real-time sparkline graph, status check badges, and leak mitigation counters).
 
-### Supported Mascot States:
-1. `idle` — Breathing floating animation with natural eyelid blinks
-2. `blink` — Rapid curious double-blink
-3. `wave` — Cheerful arm wave greeting
-4. `curious` — Puzzled head tilt with inquisitive eyebrow shift
-5. `investigate` — Crouched scan with glowing neon inspection rays
-6. `think` — Pensive gaze with floating thought sparkles
-7. `surprise` — Wide-eyed recoil with bouncy physics
-8. `happy` — Joyful crescent smile with rosy cheek blush
-9. `sad` — Empathetic downward tilt
-10. `celebrate` — Triumphant leap with confetti particles and golden starbursts
+```
+          .---.
+        /  *  *  \    [ SCOUT ]
+       |  (o)-(o) |   "I can see what standard invoices miss!"
+        \   ---  /
+          '-----'
+```
+
+### 10 Expressive Mascot States
+| Expression | Visual Behavior | Trigger Context |
+| :--- | :--- | :--- |
+| `idle` | Gentle sinusoidal floating + natural eye blinks | Default resting state |
+| `blink` | Rapid curious double-blink | User hovers or taps Scout |
+| `wave` | Cheerful raised-arm greeting gesture | Welcome on initial dashboard visit |
+| `curious` | Inquisitive head tilt with raised eyebrow | Viewing mystery metrics & unknown streams |
+| `investigate` | Crouched forward scan with neon inspection beam | Diagnostic scanning & audit modes |
+| `think` | Pensive upward gaze with floating sparkle dots | AI diagnostic calculations |
+| `surprise` | Wide-eyed startled recoil with squash/stretch | New high-volume leak discovered |
+| `happy` | Joyful crescent-curve eyes with rosy cheeks | Successful leak mitigation recorded |
+| `sad` | Empathetic drooping tilt with lowered pupils | Cumulative loss gauge in red zone |
+| `celebrate` | Triumphant upward leap with confetti starbursts | Goal achieved or milestone reached |
 
 ```jsx
 import Scout from './components/Scout/Scout';
 
-// Example usage
 <Scout 
   expression="investigate" 
   size="hero" 
-  message="Scanning for idle overnight baseline draw..." 
+  message="Scanning for idle overnight baseline power draw..." 
   interactive={true} 
 />
 ```
@@ -62,115 +79,212 @@ import Scout from './components/Scout/Scout';
 UNSEEN enforces a closed-loop governance cycle:
 
 ```
-[ DETECT ] ➔ [ MEASURE ] ➔ [ UNDERSTAND ] ➔ [ REDUCE ] ➔ [ VERIFY ]
+┌────────────┐    ┌─────────────┐    ┌──────────────┐    ┌────────────┐    ┌────────────┐
+│ 1. DETECT  │ ─► │ 2. MEASURE  │ ─► │3. UNDERSTAND │ ─► │ 4. REDUCE  │ ─► │ 5. VERIFY  │
+└────────────┘    └─────────────┘    └──────────────┘    └────────────┘    └────────────┘
 ```
 
-1. **DETECT**: Flag recurring baseline patterns and unnoticed operational friction.
-2. **MEASURE**: Convert vague waste into verifiable units ($ cost, kWh, Liters, work-hours, kg CO₂e).
-3. **UNDERSTAND**: Conversational plain-English diagnostic breakdowns from Scout.
-4. **REDUCE**: Assign concrete interventions with explicit target before-and-after states.
-5. **VERIFY**: Compare real outcome metrics against baseline and celebrate permanent savings!
+1. **DETECT**: Flag unnoticed friction, baseline idle draws, and repetitive bottlenecks.
+2. **MEASURE**: Convert fuzzy waste into concrete physical metrics (\$ cost, kWh, Liters, work-hours, kg CO₂e).
+3. **UNDERSTAND**: Scout breaks down the underlying root causes in plain, human-friendly terms.
+4. **REDUCE**: Assign concrete operational interventions with explicit before/after targets.
+5. **VERIFY**: Re-measure after intervention, compute verified permanent delta savings, and award detective badges!
 
 ---
 
-## 📱 Features & Page Architecture
+## ⚡ 5 Specialized Resource Streams
 
-| Module | Purpose & Core Capabilities |
-| :--- | :--- |
-| **Landing Hero** | Make the Invisible Visible hero, 3D Scout telemetry radar, live 5-category calculators, community ticker. |
-| **Heart Onboarding** | *"What's Close to Your Heart?"* — Scout approaches glowing heart; users select core focus areas (Environment, Budget, Community, Tech). |
-| **Suitcase Onboarding** | *"What's Inside Your Suitcase?"* — File upload for PDF/CSV/Excel, client-side leak extraction, confirmation & skip. |
-| **Main Dashboard** | Scout companion greeting, Estimated Loss Index circular gauge, 5 category stream summaries, weekly streak progress. |
-| **Track Loss Modal** | Real-time calculation engines for Time, Food, Electricity, Water, and Waiting, persistent saving & confetti reaction. |
-| **UNSEEN AI** | Conversational detective interface with Scout explaining findings in short, friendly sentences. |
-| **Action Loop** | 4-stage pipeline: Detected → Assigned → Action Taken → Resolved, with before-and-after comparison metrics. |
-| **My Impact** | Quantified financial savings, unbundled physical metrics (never mixing kWh with Liters), and unlockable detective badges. |
-| **Profile & Settings** | Priority editor, monthly target savings goal, reduced motion toggle, and JSON backup export. |
+UNSEEN keeps distinct physical units **strictly unbundled** (never carelessly summing kilowatt-hours with gallons):
+
+| Stream | Measurement Units | Conversion Formulas | Typical Leaks Caught |
+| :--- | :--- | :--- | :--- |
+| **⏳ Time** | Hours / Week | `hours × attendees × hourly rate` | Unnecessary recurring meetings, duplicate check-ins |
+| **🍱 Food** | kg / Week | `kg × $6.50/kg | 2.5 kg CO₂e/kg` | Over-prepped cafeteria stock, expired bulk storage |
+| **⚡ Electricity** | kWh / Month | `(Watts × hours / 1000) × $0.18/kWh` | Overnight vampire draw, unmanaged server racks |
+| **💧 Water** | Liters / Month | `liters × $0.004/L` | Running valve seals, unmonitored cooling towers |
+| **🛑 Waiting** | Wait Hours / Cycle | `wait hours × impacted team size` | Approval delays, queue handoff deadlocks |
 
 ---
 
-## 🎨 Brand Color Palette
+## 📱 Page Architecture & UX Flows
 
-- **Deep Green**: `#021E18` *(Main brand anchor)*
-- **Neon Lime**: `#C7FF00` *(Primary action & neon accents)*
-- **Bright Lime**: `#D6FB00` *(Active tactile hover states)*
-- **Pale Lime**: `#ECFFB6` *(Readable card surfaces & badges)*
-- **Deep Teal**: `#00545F` *(Secondary focus & conservation)*
-- **Warning Orange**: `#FF2A00` *(Severe alerts & emissions footprint)*
-- **Warm Yellow**: `#FFC000` *(Cautionary indicators & energy wattage)*
+- **Landing Page (`/`)**: 
+  - Architectural grid backdrop with deep emerald `#021E18` gradients.
+  - Floating 3D mascot telemetry radar.
+  - Interactive live category cost calculators.
+  - Tactile 3D button physics with extruded neon borders.
+  - Dynamic responsive desktop navigation & floating iOS dock for mobile devices.
+- **Heart Onboarding (`/heart-onboarding`)**:
+  - *"What's Close to Your Heart?"* — Scout interacts with a pulsating heart core.
+  - Users select their primary focus areas (Environment, Personal Budget, Team Culture, Modern Tech).
+- **Suitcase Onboarding (`/suitcase-onboarding`)**:
+  - *"What's Inside Your Suitcase?"* — Drag-and-drop document intake for audit statements, invoices, and schedules with real-time parsed extraction.
+- **Main Dashboard (`/dashboard`)**:
+  - Estimated Loss Index radial gauge.
+  - Unbundled 5-stream telemetry cards.
+  - Interactive 7-day streak tracker and quick-action leak logger.
+- **Action Loop Kanban (`/action-loop`)**:
+  - 4-stage mitigation pipeline: `Detected` ➔ `Assigned` ➔ `Action Taken` ➔ `Resolved`.
+  - Side-by-side Before/After validation metrics.
+- **UNSEEN AI Detective (`/ai`)**:
+  - Conversational detective interface with Scout for investigative diagnostic breakdowns.
+- **My Impact (`/impact`)**:
+  - Real-world carbon, cost, and physical units diverted.
+  - Unlockable detective badges (`Phantom Hunter`, `Aqua Guardian`, `Focus Master`).
+- **Profile & Export (`/profile`)**:
+  - Target monthly savings configuration, reduced-motion accessibility mode, and one-click JSON backup export.
 
 ---
 
-## ⚡ Tech Stack
+## 🎨 Design System & Palette
 
-- **Framework**: React 18
-- **Build Tool**: Vite 6
-- **Styling**: Tailwind CSS 3
-- **Icons**: Lucide React
-- **Celebration Effects**: Canvas Confetti
-- **Typography**: Plus Jakarta Sans & Fredoka (Google Fonts)
-- **Deployment**: Vercel & GitHub Actions (Zero-config)
+Carefully tuned high-contrast tactile dark theme engineered for visual clarity:
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/fadilp5x/WOW-UNSEEN.git
-cd WOW-UNSEEN
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Start development server
-```bash
-npm run dev
-```
-Open **`http://localhost:5173`** in your browser.
-
-### 4. Build for production
-```bash
-npm run build
+```css
+--color-deep-green:   #021E18;  /* Dominant canvas and deep surfaces */
+--color-neon-lime:    #C7FF00;  /* Primary brand signature & high-vis accents */
+--color-bright-lime:  #D6FB00;  /* Active hover states & tactile button tops */
+--color-pale-lime:    #ECFFB6;  /* Soft high-contrast text and badge cards */
+--color-deep-teal:    #00545F;  /* Secondary detective frames & water accents */
+--color-orange:       #FF2A00;  /* High-severity alert badges & CO2 footprint */
+--color-yellow:       #FFC000;  /* Cautionary idle wattage indicators */
 ```
 
 ---
 
-## ☁️ Deployment
+## 🔑 Environment Variables & API Keys
 
-### Deploy to Vercel (Recommended)
-1. Push your code to GitHub.
-2. Go to [vercel.com/new](https://vercel.com/new) and import `fadilp5x/WOW-UNSEEN`.
-3. Vercel automatically detects Vite and uses the included `vercel.json` rewrite rules.
-4. Click **Deploy**!
+### 💡 Zero Mandatory API Keys Required!
+**UNSEEN is 100% functional out of the box.** It features an internal **zero-config local persistent storage engine** with realistic simulation data, guest sessions, and real-time calculations.
 
-### Deploy to GitHub Pages
-1. Go to your repository **Settings** → **Pages**.
-2. Under **Build and deployment** → **Source**, select **`GitHub Actions`**.
-3. Every commit pushed to `main` triggers `.github/workflows/deploy.yml` and publishes automatically!
+You can deploy immediately to **Vercel** or **GitHub Pages** without configuring any secret keys!
 
----
+### Optional: Cloud Synchronization (Supabase)
+If you wish to synchronize records across devices using Supabase, copy `.env.example` to `.env`:
 
-## 🔐 Environment Variables (Optional)
-
-UNSEEN comes pre-configured with **Zero-Config Local Persistent Storage** that works immediately without any external database.
-
-If you wish to link a cloud Supabase project:
-1. Copy `.env.example` to `.env`:
 ```bash
 cp .env.example .env
 ```
-2. Populate your Supabase credentials:
-```env
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key
+
+| Variable | Description | Required? | Default |
+| :--- | :--- | :--- | :--- |
+| `VITE_SUPABASE_URL` | Your Supabase project URL | **No** (Optional) | `none` (Local Storage) |
+| `VITE_SUPABASE_ANON_KEY` | Your Supabase anonymous public key | **No** (Optional) | `none` (Local Storage) |
+| `VITE_APP_ENV` | Environment identifier | **No** (Optional) | `production` |
+
+---
+
+## 🚀 Deployment Guide
+
+### Option 1: Deploy to Vercel (1-Click Recommended)
+
+1. Click the button below:  
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffadilp5x%2FWOW-UNSEEN)
+2. Connect your GitHub account and select **`fadilp5x/WOW-UNSEEN`**.
+3. Vercel automatically detects the Vite configuration and `vercel.json` SPA rewrite rules.
+4. Click **Deploy** — your live site will be ready in under 60 seconds!
+
+*Included `vercel.json`:*
+```json
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
 ```
 
 ---
 
-## 📄 License
+### Option 2: Deploy to GitHub Pages (Automated CI/CD)
 
-MIT License © 2026 UNSEEN. Built for the Buildathon with Scout the 3D Detective Mascot.
+This repository includes a pre-configured GitHub Actions workflow at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+1. In your GitHub repository, go to **Settings** ➔ **Pages**.
+2. Under **Build and deployment** ➔ **Source**, select **`GitHub Actions`**.
+3. Every commit pushed to the `main` branch will build and deploy your site automatically!
+
+---
+
+### Option 3: Local Development
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/fadilp5x/WOW-UNSEEN.git
+cd WOW-UNSEEN
+
+# 2. Install dependencies
+npm install
+
+# 3. Start Vite dev server
+npm run dev
+
+# 4. Open in browser
+# Local URL: http://localhost:5173
+```
+
+---
+
+## 📁 Project Architecture
+
+```
+WOW-UNSEEN/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml            # Automated GitHub Actions deployment
+├── public/
+│   └── scout-master.jpg          # Original design reference
+├── src/
+│   ├── assets/
+│   │   └── scout-master.jpg
+│   ├── components/
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.jsx        # Responsive navigation & mobile dock
+│   │   │   └── FloatingStreakBadge.jsx # 4-day streak button & progress modal
+│   │   └── Scout/
+│   │       ├── Scout.jsx         # 3D Vector Mascot (10 animation states)
+│   │       └── ScoutHeroDisplay.jsx # Telemetry radar & live metric cards
+│   ├── pages/
+│   │   ├── ActionLoop.jsx        # 4-stage Kanban action loop
+│   │   ├── AuthModal.jsx         # Authentication & guest access modal
+│   │   ├── Dashboard.jsx         # Master resource intelligence dashboard
+│   │   ├── HeartOnboarding.jsx   # Priority selection onboarding
+│   │   ├── LandingPage.jsx       # Flagship landing page & calculators
+│   │   ├── MyImpact.jsx          # Physical metric analytics & badges
+│   │   ├── Profile.jsx           # Preferences, targets & JSON export
+│   │   ├── SuitcaseOnboarding.jsx# Document intake & leak extraction
+│   │   ├── TrackLossModal.jsx    # Real-time resource conversion modal
+│   │   └── UnseenAI.jsx          # Conversational detective assistant
+│   ├── services/
+│   │   └── storage.js            # Offline persistent storage engine
+│   ├── App.jsx                   # Master state router & navigation
+│   ├── index.css                 # Tactile 3D button physics & keyframes
+│   └── main.jsx                  # React DOM mount root
+├── .env.example                  # Environment configuration template
+├── .gitignore                    # Production cleanliness rules
+├── index.html                    # HTML entry point with Plus Jakarta Sans & Fredoka
+├── package.json                  # Dependencies & build scripts
+├── postcss.config.js             # PostCSS Tailwind engine
+├── tailwind.config.js            # Custom UNSEEN design palette
+├── vercel.json                   # Zero-config Vercel SPA routing
+├── vite.config.js                # Vite build config with './' asset base
+└── README.md                     # Documentation
+```
+
+---
+
+## 🛡️ License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+<div align="center">
+  <b>UNSEEN</b> — Engineered for the Buildathon with Scout the 3D Detective Companion.  
+  <sub>"Make the Invisible Visible."</sub>
+</div>
