@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+.node
+.git_tools
+
+# Local wrappers
+run_git.cmd
+run_node.cmd
+run_npm.cmd
+run_npx.cmd
+
+# Production build
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

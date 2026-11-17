@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAFDF7;
+    color: #021E18;
+    overflow-x: hidden;
+  }
+}
+
+/* Subtle architectural grid pattern from user reference image */
+.bg-grid-pattern {
+  background-color: #FAFDF7;
+  background-image: 
+    linear-gradient(to right, rgba(2, 30, 24, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(2, 30, 24, 0.045) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+/* Duolingo-style Tactile 3D Buttons */
+.btn-tactile-lime {
+  background-color: #C7FF00;
+  color: #021E18;
+  font-weight: 800;
+  border-radius: 1.15rem;
+  box-shadow: 0 4px 0 #8FB800;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-tactile-lime:hover {
+  background-color: #D6FB00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #8FB800;
+}
+.btn-tactile-lime:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #8FB800;
+}
+
+.btn-tactile-deep {
+  background-color: #021E18;
+  color: #C7FF00;
+  font-weight: 800;
+  border-radius: 9999px;
+  box-shadow: 0 4px 0 #000B09;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-tactile-deep:hover {
+  background-color: #052F27;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #000B09;
+}
+.btn-tactile-deep:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #000B09;
+}
+
+.btn-tactile-outline {
+  background-color: #FFFFFF;
+  color: #021E18;
+  font-weight: 700;
+  border: 2px solid #E2EBE5;
+  border-radius: 1.15rem;
+  box-shadow: 0 4px 0 #D0DED4;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-tactile-outline:hover {
+  border-color: #CADBCF;
+  background-color: #F8FBF8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #CADBCF;
+}
+.btn-tactile-outline:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #CADBCF;
+}
+
+/* Card tactile style */
+.card-tactile {
+  background-color: #FFFFFF;
+  border: 2px solid #E8EFEA;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 0 #DDE8DF;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-tactile:hover {
+  border-color: #CADBCF;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 #CADBCF, 0 16px 30px rgba(2, 30, 24, 0.06);
+}
+
+/* Smooth Dynamic Page Transition */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.995);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-page-enter {
+  animation: fadeInUp 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
