@@ -288,3 +288,7 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
   <b>UNSEEN</b> — Engineered for the Buildathon with Scout the 3D Detective Companion.  
   <sub>"Make the Invisible Visible."</sub>
 </div>
+
+---
+
+Part of [PROJECT WOW](https://github.com/fadilp5x/PROJECT-WOW), the umbrella home of UNSEEN, TIME TAX, EXHAUST and SHADOWPACT.
